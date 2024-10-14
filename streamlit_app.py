@@ -6,5 +6,4 @@ st.info("This is app to predict the response variables of PLGA nanoparticles, i.
 
 
 st.subheader("Choose parameters of microfluidic")
-temp_options = [3, 3.5, 4, 5]
-temp = st.select_slider("Choose Factor A:", options=temp_options)
+factor_A = st.slider("Choose Factor A:", 0, 6)
